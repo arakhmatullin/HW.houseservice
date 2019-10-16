@@ -1,7 +1,6 @@
 package ru.itpark;
 
 import ru.itpark.model.House;
-
 import java.util.ArrayList;
 
 public class HouseService {
@@ -16,7 +15,6 @@ public class HouseService {
     public void addHouse(long price, String district, String address) {
         id++;
         housesList.add(new House(id, price, district, address));
-        return;
     }
 
 

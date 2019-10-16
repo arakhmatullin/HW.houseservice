@@ -1,7 +1,5 @@
 package ru.itpark.model;
 
-import java.lang.ref.SoftReference;
-
 public class House {
     private int id;
     private long price;
