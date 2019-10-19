@@ -6,7 +6,7 @@ public class House {
     private String address;
     private String district;
 
-    public House(int id, long price, String district,String address) {
+    public House(int id, long price, String district, String address) {
         this.id = id;
         this.price = price;
         this.district = district;
@@ -25,7 +25,7 @@ public class House {
         return price;
     }
 
-     public String getDistrict() {
+    public String getDistrict() {
         return district;
     }
 }
