@@ -1,3 +1,4 @@
+package ru.itpark;
 import ru.itpark.model.House;
 import ru.itpark.service.HouseService;
 
